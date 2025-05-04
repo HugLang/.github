@@ -1,12 +1,95 @@
-## Hi there 👋
+# HugLang - 拥抱语言，探索世界
 
-<!--
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3c090ac9-78e6-4394-9051-b11c01864b1d" alt="HugLang Logo" width="200"/>
+  <p>HugLang</p>
+  <p><a href="https://huglang.com">官方网站</a> | <a href="#应用截图">应用截图</a> | <a href="#安装说明">安装说明</a></p>
+</div>
 
-**Here are some ideas to get you started:**
+## 项目简介
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+HugLang是一款创新的语言学习应用，基于大语言模型技术，根据克拉申语言习得理论设计开发。它提供个性化、沉浸式的语言学习体验，让用户通过有意义的交互和理解性输入自然习得新语言。
+
+### 核心理念
+
+- **以理解性输入为核心**：基于克拉申语言习得理论，强调通过理解略高于当前水平的语言内容来促进语言能力提升
+- **个性化学习体验**：智能调整内容难度，始终保持在用户的"i+1"区域
+- **多元化学习场景**：提供角色对话、故事阅读、写作训练等多种学习方式
+- **情感过滤最小化**：创造低压力、高趣味性的学习环境，降低学习焦虑
+
+## 主要功能
+
+### 💬 智能对话学习
+
+- 多样化语言角色：与不同风格和专业背景的AI角色进行对话
+- 自适应难度：系统自动调整语言水平，保持在用户能力边界
+
+- 实时反馈：提供语法纠正和表达优化建议
+
+### 📚 词汇学习系统
+
+- 智能词汇记忆系统：采用间隔重复原理，优化记忆效率
+- 上下文词汇学习：在有意义的场景中学习和巩固词汇
+- 个性化词汇本：自动收集和组织遇到的生词
+
+### 📝 写作与表达训练
+
+- 引导式写作练习：根据用户水平提供适当的写作指导
+- 文本润色与改进：智能分析并提升语言表达质量
+- 多媒体创作：支持图文结合的创意表达
+
+### 📊 学习进度追踪
+
+- 详细的学习数据统计：词汇量、活跃度、能力提升等多维度分析
+- 可视化学习热图：直观展示学习习惯和进展
+- 学习计划与目标设定：科学规划学习路径
+
+### 🔌 插件与内容生成系统
+
+- 可扩展的角色与场景：支持自定义学习场景和互动角色
+- AI内容创建工具：让用户参与创建个性化学习材料
+- 社区内容分享：与其他学习者共享有效的学习资源
+
+## 技术架构
+
+### 前端应用 (Expo React Native)
+
+- **开发框架**: Expo & React Native，实现跨平台兼容性
+- **状态管理**: 基于Jotai的原子化状态管理
+- **本地存储**: 使用SQLite确保离线功能可用性
+- **UI设计**: 采用NativeWind和自定义组件构建现代直观界面
+- **国际化**: 支持多语言界面切换，基于i18next
+
+### 后端服务 (Fastify)
+
+- **服务框架**: 高性能的Fastify框架，结合TypeScript保障代码质量
+- **数据库**: PostgreSQL与Drizzle ORM实现强类型数据操作
+- **API文档**: 集成Swagger/OpenAPI自动化文档
+- **认证系统**: 基于JWT的安全用户认证机制
+
+### 大语言模型服务
+
+- **提示词工程**: 精心设计的提示词系统，确保语言输出符合教学需求
+- **内容生成**: 基于LangChain的内容编排系统
+- **多级审核**: 确保生成内容的教育适宜性与质量
+
+
+
+
+
+## 项目团队
+
+- **郭政** - 开发者
+- **Jrenc** - 开发者
+
+## 致谢
+
+感谢所有为本项目提供支持与帮助的导师、顾问和测试用户，特别感谢克拉申语言习得理论为我们提供的理论基础。
+
+
+---
+
+<div align="center">
+  <p>© 2024 HugLang Team. All Rights Reserved.</p>
+  <p>拥抱语言，探索世界 🌍</p>
+</div>
